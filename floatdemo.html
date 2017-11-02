@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>floatdemo</title>
+	<style>
+	body,div,li,ul,img{ margin:0; padding: 0; }
+	.box1{
+		width: 1300px;
+		height: 300px;
+		background: yellow;
+	}
+	li,img{
+		width: 300px;
+		height: 200px;
+	}
+	li{
+		/*float: left;*/
+		list-style: none;
+		margin: 5px 5px ;
+
+	}
+	.box1 li{
+		float: left;
+	}
+	.box2{
+		background: green;
+		width: 1300px;
+		height: 300px;
+	}
+	.wrap1{
+		background-image: url(../webproject/img/hehe.jpg);
+		float: left;
+	}	
+	.wrap2{
+		background-image: url(../webproject/img/chuanzhi.jpg);
+		width: 500px;
+		height: 400px;
+	}	
+	.wrap3{
+		background-image: url(../webproject/img/chuanzhi2.jpg);
+	}	
+	.wrap4{
+		background-image: url(../webproject/img/9.jpg);
+	}
+
+
+	</style>
+</head>
+<body>
+	<ul class="box1">
+		<li> <img src="../webproject/img/hehe.jpg" alt=""></li>
+		<li><img src="../webproject/img/chuanzhi.jpg" alt=""></li>
+		<li><img src="../webproject/img/chuanzhi2.jpg" alt=""></li><li><img src="../webproject/img/9.jpg" alt=""></li>
+	</ul>
+	<ul class="box2">
+		<li class="wrap1"></li>
+		<li class="wrap2"></li>
+		<li class="wrap3"></li>
+		<li class="wrap4"></li>
+	</ul>
+</body>
+</html>

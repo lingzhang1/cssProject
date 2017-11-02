@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>noneelement</title>
+	<style>
+		p:first-line{
+			color: red;
+		}
+		p:first-letter{
+			font-size: 50px;
+			color: red;
+		}
+		li:first-child{
+			background-color: green;
+		}
+		ul:before, ul:after{
+			content: "~~~~~~~";
+			display: block; 
+		/*将行级标签转换成块级标签*/
+		}
+	</style>
+</head>
+<body>
+<p>前端开发,
+行内样式，是通过在标签中设置style属性来达到实现控制标签的样式的效果。
+Style属性中，可以设置多条的CSS样式。
+<span>嵌入样式</span>：
+在head标签中，嵌套一个style标签，在style标签中可以书写CSS的样式内容。
+Style标签有一个属性type属性，默认值就是 text/css,可以省略。</p>
+<ul>
+	<li>北京</li>
+	<li>上海</li>
+	<li>深圳</li>
+</ul>
+</body>
+</html>
